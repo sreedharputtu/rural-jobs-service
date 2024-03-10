@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	// Import mysql driver
+	_ "github.com/lib/pq"
 )
 
 // Define connection details (replace with your actual credentials)
